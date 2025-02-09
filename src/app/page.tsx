@@ -1,9 +1,4 @@
 
-
-import { Button } from '@/components/ui/button';
-import ModeToggle from '@/components/ModeToggle';
-import { SignedOut, SignedIn, SignInButton, UserButton } from '@clerk/nextjs';
-
 export default function Home() {
   return (
     <div className='m-4'>
