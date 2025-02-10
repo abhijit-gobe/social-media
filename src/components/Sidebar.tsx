@@ -1,11 +1,11 @@
 import { currentUser } from "@clerk/nextjs/server"
-import { Card, CardHeader, CardTitle, CardContent } from '../components/ui/card'; // Replace 'your-card-library' with the actual library name
-import { SignInButton, SignUpButton } from '@clerk/nextjs'; // Replace 'your-auth-library' with the actual library name
-import { Button } from '../components/ui/button'; // Replace 'your-button-library' with the actual library name
-import { Avatar, AvatarImage } from '../components/ui/avatar'; // Replace 'your-avatar-library' with the actual library name
+import { Card, CardHeader, CardTitle, CardContent } from '../components/ui/card'; 
+import { SignInButton, SignUpButton } from '@clerk/nextjs'; 
+import { Button } from '../components/ui/button';
+import { Avatar, AvatarImage } from '../components/ui/avatar'; 
 import { getUserByClerkId } from "@/actions/user.action";
 import Link from 'next/link';
-import { Separator } from '../components/ui/separator'; // Replace 'your-separator-library' with the actual library name
+import { Separator } from '../components/ui/separator'; 
 import { LinkIcon, MapPinIcon } from "lucide-react";
 
 const Sidebar = async () => {
