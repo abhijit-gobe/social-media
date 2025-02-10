@@ -10,7 +10,7 @@ export default async function Home() {
   const posts = await getPosts();
   const dbUserId = await getDbUserId();
   return (
-    <div className='grid grid-cols-1 lg:grid-cols-10 gap-6'>
+    <div className='grid grid-cols-1 lg:grid-cols-10 gap-6 mt-5'>
       <div className="lg:col-span-6">
         {user ? <CreatePost /> : null} 
         <div className="space-y-6">
